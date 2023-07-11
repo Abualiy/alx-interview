@@ -3,12 +3,13 @@
 result in exactly n H characters in the file.
 """
 
+
 def minOperations(n):
-    """ fewest number of operations needed to result 
+    """ fewest number of operations needed to result
     in exactly n H characters in the file.
     """
     if not isinstance(n, int):
-        return 0;
+        return 0
     ops_count = 0
     clipboard = 0
     done = 1
